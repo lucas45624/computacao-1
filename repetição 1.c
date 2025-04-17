@@ -1,21 +1,21 @@
 #include <stdio.h>
 
 int main() {
-    int numero;
+    int numero =1;
 
-    printf("Digite n˙meros inteiros (digite um n˙mero negativo para sair):\n");
+    printf("Digite n√∫meros inteiros (digite um n√∫mero negativo para sair):\n");
 
-    while (1) {
-        printf("Digite um n˙mero: ");
+    while (numero > 0) {
+        printf("Digite um n√∫mero: ");
         scanf("%d", &numero);
 
         if (numero < 0) {
-            printf("N˙mero negativo digitado. Encerrando o programa.\n");
+            printf("N√∫mero negativo digitado. Encerrando o programa.\n");
             break; // Sai do loop
         }
 
-        printf("VocÍ digitou: %d\n", numero);
+        printf("Voc√™ digitou: %d\n", numero);
     }
 
-    return 0;}
-
+    return 0;
+    }
